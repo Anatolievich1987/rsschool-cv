@@ -1,24 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 header{
     background-color: #ffb129;  
 }
 
 .boxHeader{
+    position: relative;
+    flex-direction: column;
+    padding: 20px 0 0 50px;
     margin-top: 10px;
     margin: auto;
-    width: 1225px;
-    height: 611px;
+    width: 1000px;
+    height: 411px;
     background-color: black;   
-    
 }
 
-h1{
-    font-size: 90px;
+h1{ 
+    margin: 0px;
+    font-size: 70px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Montserrat";}
 
 h3{
+    width: 50%;
     font-size: 21px;
     letter-spacing: 0px;
     color: #ffffff;
@@ -26,11 +35,17 @@ h3{
     font-family: "Montserrat";
 }
 
-.boxHeader>span{
-    width: 399px;
-    height: 128px;
+.text{
+    width: 300px;
     font-size: 16px;
     color: #ffffff;
     font-weight: 300;
     font-family: "Montserrat";
 }
+
+.avatar{
+    position: absolute;
+    margin: -10% 0% -1% 50%;
+    background-color: #c6c6c6;
+}
+
