@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: #ffb129;  
+}
+
+.boxHeader{
+    position: relative;
+    flex-direction: column;
+    padding: 20px 0 0 50px;
+    margin-top: 10px;
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    background-color: black;   
+}
+
+h1{ 
+    margin: 0px;
+    font-size: 100px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";}
+
+h3{
+    width: 50%;
+    font-size: 51px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+.text{
+    width: 500px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+.avatar{
+    position: absolute;
+    margin: -30% 0% -1% 50%;
+}
+
+img{
+    width: 500px;
+}
+
+.boxContent{
+    background-color: black;
+    width: auto;
+}
+
+.conteiner{
+    position: relative;
+    flex-direction: column;
+    padding: 20px 0 0 50px;
+    margin: auto;
+    width: 70%;
+    background-color: white;   
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 50px;
+    margin: 40px;
+}
+section{
+    margin: 0 100px;
+}
+span {
+    width: 50%;
+    font-size: 40px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+.boxFooter{
+    position: relative;
+    flex-direction: column;
+    padding: 40px 0 40px 50px;
+    margin: auto;
+    width: 70%;
+    color: white;
+}
+.boxFooter>span{
+    text-align: center;
+}
